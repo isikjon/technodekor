@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Технодекор | Технопанель</title>
+    <meta
+      name="description"
+      content="Адаптивный прототип страницы Технодекор для сайта Технопанель: архитектурный декор, каталог решений, партнерство и заявки."
+    />
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="Технопанель">
+        <span>ТЕХНО</span><b>ПАНЕЛЬ</b>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false" data-menu-toggle>
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav" data-nav>
+        <a href="#solutions">Каталог решений</a>
+        <a href="#technodecor">Технодекор</a>
+        <a href="#constructor">Конструктор</a>
+        <a href="#where">Где купить</a>
+        <a href="#partner">Стать партнёром</a>
+      </nav>
+      <div class="header-actions">
+        <a class="icon-link" href="https://wa.me/79261113483" aria-label="WhatsApp">WA</a>
+        <a class="phone" href="tel:+78004444942">8 800 444 49 42</a>
+        <button class="btn btn-small" type="button" data-open-modal="Заказать звонок">Позвоните мне</button>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-media" aria-hidden="true">
+          <div class="panel-stack">
+            <span></span><span></span><span></span><span></span><span></span><span></span>
+          </div>
+        </div>
+        <div class="hero-content">
+          <p class="eyebrow">Технопанель / новая вкладка</p>
+          <h1>Технодекор для выразительных фасадов</h1>
+          <p class="lead">
+            Лёгкие архитектурные элементы под проект: карнизы, русты, молдинги,
+            наличники и фасадные акценты в единой системе Технопанель.
+          </p>
+          <div class="hero-buttons">
+            <button class="btn" type="button" data-open-modal="Получить расчёт Технодекора">Получить расчёт</button>
+            <a class="btn btn-outline" href="#catalog">Смотреть каталог</a>
+          </div>
+        </div>
+        <div class="hero-proof">
+          <div><b>НГ</b><span>негорючая основа</span></div>
+          <div><b>под проект</b><span>геометрия и фактура</span></div>
+          <div><b>быстро</b><span>монтаж без тяжёлой подсистемы</span></div>
+        </div>
+      </section>
+
+      <section class="intro section" id="technodecor">
+        <div class="section-title">
+          <p class="eyebrow">Технодекор</p>
+          <h2>Декор, который выглядит архитектурно, а монтируется легко</h2>
+        </div>
+        <div class="intro-grid">
+          <article class="feature dark">
+            <span>01</span>
+            <h3>Под любой фасад</h3>
+            <p>Классика, минимализм, входные группы и коммерческие объекты.</p>
+          </article>
+          <article class="feature">
+            <span>02</span>
+            <h3>Быстрый монтаж</h3>
+            <p>Лёгкие элементы проще доставлять, поднимать и крепить на объекте.</p>
+          </article>
+          <article class="feature blue">
+            <span>03</span>
+            <h3>Индивидуальная геометрия</h3>
+            <p>Размеры и профиль адаптируются под задачу архитектора.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section catalog-section" id="catalog">
+        <div class="section-title split">
+          <div>
+            <p class="eyebrow">Каталог декора</p>
+            <h2>Фасадные элементы</h2>
+          </div>
+          <button class="btn btn-outline" type="button" data-open-modal="Запросить полный каталог">Запросить каталог</button>
+        </div>
+        <div class="catalog-grid">
+          <article class="decor-card">
+            <div class="decor-shape arch"></div>
+            <h3>Барельефы</h3>
+            <p>Акценты для входных групп и премиальных фасадов.</p>
+            <button type="button" data-open-modal="Заказать барельеф">Заказать</button>
+          </article>
+          <article class="decor-card">
+            <div class="decor-shape line"></div>
+            <h3>Сандрики и наличники</h3>
+            <p>Чистое обрамление окон и дверей.</p>
+            <button type="button" data-open-modal="Заказать сандрики">Заказать</button>
+          </article>
+          <article class="decor-card">
+            <div class="decor-shape blocks"></div>
+            <h3>Русты и молдинги</h3>
+            <p>Ритм фасада и аккуратное зонирование.</p>
+            <button type="button" data-open-modal="Заказать русты">Заказать</button>
+          </article>
+          <article class="decor-card">
+            <div class="decor-shape column"></div>
+            <h3>Пилястры и капители</h3>
+            <p>Вертикали для реконструкции и входных групп.</p>
+            <button type="button" data-open-modal="Заказать пилястры">Заказать</button>
+          </article>
+        </div>
+      </section>
+
+      <section class="section solutions" id="solutions">
+        <div class="section-title">
+          <p class="eyebrow">Вместо типовых проектов</p>
+          <h2>Каталог решений</h2>
+        </div>
+        <div class="solution-tabs" role="tablist" aria-label="Каталог решений">
+          <button class="active" type="button" data-solution="homes">ИЖС дома</button>
+          <button type="button" data-solution="business">Административные и коммерческие</button>
+          <button type="button" data-solution="partitions">Перегородки</button>
+          <button type="button" data-solution="fences">Заборы</button>
+          <button type="button" data-solution="shore">Берегоукрепление</button>
+          <button type="button" data-solution="modules">Глэмпинги и НТО</button>
+        </div>
+        <div class="solution-panel" data-solution-panel>
+          <div>
+            <p class="eyebrow">ИЖС дома</p>
+            <h3>Каменный дом за 3–5 дней</h3>
+            <p>
+              Готовый тёплый контур, фасадные сценарии и понятная сборка
+              для частного строительства.
+            </p>
+            <button class="btn" type="button" data-open-modal="Подобрать проект ИЖС">Подобрать проект</button>
+          </div>
+          <ul>
+            <li>экологичность и пожаробезопасность</li>
+            <li>снижение ошибок на стройке</li>
+            <li>готовые фасадные сценарии</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section constructor" id="constructor">
+        <div class="constructor-copy">
+          <p class="eyebrow">Собирается как конструктор</p>
+          <h2>Одна технология для дома, декора и коммерческих модулей</h2>
+          <p>
+            Линейка раскрывает не только ИЖС: фасады, перегородки,
+            ограждения, модули, НТО и глэмпинги.
+          </p>
+          <div class="steps">
+            <span>01. Подобрать решение</span>
+            <span>02. Получить спецификацию</span>
+            <span>03. Согласовать монтаж</span>
+          </div>
+        </div>
+        <div class="constructor-widget">
+          <div class="widget-top">
+            <b data-widget-title>Фасадный декор</b>
+            <span data-widget-meta>лёгкие элементы под проект</span>
+          </div>
+          <div class="widget-preview">
+            <div class="mini-house">
+              <span class="roof"></span>
+              <span class="wall"></span>
+              <span class="decor decor-a"></span>
+              <span class="decor decor-b"></span>
+              <span class="decor decor-c"></span>
+            </div>
+          </div>
+          <div class="widget-options">
+            <button class="active" type="button" data-widget="Фасадный декор|лёгкие элементы под проект">Декор</button>
+            <button type="button" data-widget="Тёплый контур|домокомплект для быстрой сборки">Дом</button>
+            <button type="button" data-widget="Коммерческий модуль|НТО, офис, глэмпинг или шоурум">Модуль</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section comparison">
+        <div class="section-title split">
+          <div>
+            <p class="eyebrow">Почему это сильнее привычной лепнины</p>
+            <h2>Легче классических решений</h2>
+          </div>
+        </div>
+        <div class="compare-table" role="table" aria-label="Сравнение материалов">
+          <div role="row" class="table-head">
+            <span>Критерий</span><span>Гипс</span><span>Камень</span><span>Стеклопластик</span><span>Технодекор</span>
+          </div>
+          <div role="row"><span>Вес</span><span>высокий</span><span>очень высокий</span><span>средний</span><b>низкий</b></div>
+          <div role="row"><span>Монтаж</span><span>сложный</span><span>техника и крепёж</span><span>подготовка</span><b>быстрый</b></div>
+          <div role="row"><span>Влага</span><span>впитывает</span><span>зависит от породы</span><span>зависит от слоя</span><b>устойчив</b></div>
+          <div role="row"><span>Пожарная логика</span><span>минеральный</span><span>минеральный</span><span>полимеры</span><b>НГ</b></div>
+        </div>
+      </section>
+
+      <section class="section process-band">
+        <div>
+          <p class="eyebrow">Как работает</p>
+          <h2>От эскиза до готового фасада</h2>
+        </div>
+        <div class="process-list">
+          <article><span>01</span><b>Эскиз</b><p>Фиксируем стиль, размеры и узлы.</p></article>
+          <article><span>02</span><b>Производство</b><p>Готовим элементы под проект.</p></article>
+          <article><span>03</span><b>Монтаж</b><p>Передаём схему крепления и спецификацию.</p></article>
+        </div>
+      </section>
+
+      <section class="section where" id="where">
+        <div class="section-title">
+          <p class="eyebrow">Где купить</p>
+          <h2>Где купить</h2>
+        </div>
+        <div class="where-grid">
+          <form class="lead-form" data-form="Где купить">
+            <label>
+              Ваш город
+              <input required name="city" placeholder="Например, Казань" />
+            </label>
+            <label>
+              Телефон
+              <input required name="phone" placeholder="+7 (___) ___-__-__" />
+            </label>
+            <button class="btn" type="submit">Найти дилера</button>
+          </form>
+          <div class="dealer-list">
+            <article><b>Москва и ЦФО</b><span>склад, образцы, выезд инженера</span></article>
+            <article><b>Юг</b><span>партнёры по ИЖС и коммерческим модулям</span></article>
+            <article><b>Поволжье</b><span>подбор решения и расчёт доставки</span></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section partner" id="partner">
+        <div>
+          <p class="eyebrow">Стать партнёром</p>
+          <h2>Добавьте Технопанель и Технодекор в свою линейку</h2>
+          <p>
+            Для дилеров, архитекторов, строительных компаний и производителей модулей.
+          </p>
+        </div>
+        <button class="btn" type="button" data-open-modal="Стать партнёром Технопанель">Обсудить партнёрство</button>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a class="brand" href="#top"><span>ТЕХНО</span><b>ПАНЕЛЬ</b></a>
+      <div>
+        <a href="tel:+78004444942">8 800 444 49 42</a>
+        <a href="https://wa.me/79261113483">WhatsApp</a>
+        <button type="button" data-open-modal="Получить консультацию">Получить консультацию</button>
+      </div>
+    </footer>
+
+    <div class="modal" aria-hidden="true" data-modal>
+      <div class="modal-backdrop" data-close-modal></div>
+      <section class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <button class="modal-close" type="button" aria-label="Закрыть" data-close-modal>×</button>
+        <p class="eyebrow">Заявка</p>
+        <h2 id="modal-title" data-modal-title>Получить консультацию</h2>
+        <form class="lead-form" data-form="Модальная форма">
+          <label>
+            Имя
+            <input required name="name" placeholder="Как к вам обращаться" />
+          </label>
+          <label>
+            Телефон
+            <input required name="phone" placeholder="+7 (___) ___-__-__" />
+          </label>
+          <label>
+            Комментарий
+            <textarea name="comment" placeholder="Направление, город или задача"></textarea>
+          </label>
+          <button class="btn" type="submit">Отправить заявку</button>
+        </form>
+      </section>
+    </div>
+
+    <div class="toast" role="status" aria-live="polite" data-toast>Заявка подготовлена для подключения к форме Tilda.</div>
+    <script src="./app.js"></script>
+  </body>
+</html>

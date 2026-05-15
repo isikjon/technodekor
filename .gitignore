@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Local source materials from client
+*.pdf
+*.docx
+*.doc
+*.mp4
+*.mov
+*.avi
+
+# Generated previews and visual QA artifacts
+assets/
+
+# Runtime / editor noise
+node_modules/
+.env
+.env.*
+.idea/
+.vscode/
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
